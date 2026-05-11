@@ -1,0 +1,12 @@
+#!/bin/bash
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# Check if the virtual environment exists
+if [ ! -d "$SCRIPT_DIR/scanner" ]; then
+    echo "[-] Error: Virtual environment 'scanner' not found in $SCRIPT_DIR"
+    exit 1
+fi
+
+# Run the scanner using the venv's python with sudo
+sudo "$SCRIPT_DIR/scanner/bin/python" "$SCRIPT_DIR/priviscanner.py" "$@"
