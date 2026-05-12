@@ -36,6 +36,7 @@ pip install -r requirements.txt
 ### 3. One-Touch Launcher (Optional but Recommended)
 
 chmod +x priviscan
+
 sudo ./priviscan <target>
 
 ### 4. Usage
