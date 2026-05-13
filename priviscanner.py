@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║       PriVi Network Recon Scanner v2.0                           ║
+║       PriVi Network Recon Scanner v1.0                           ║
 ║       Full-Spectrum Domain Reconnaissance Suite                  ║
 ║       Developed by Prince Ubebe | PriViSecurity                  ║
 ╚══════════════════════════════════════════════════════════════════╝
