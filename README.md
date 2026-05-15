@@ -25,6 +25,7 @@
 ### 1. Clone the repository
 
 git clone [https://github.com/your-username/PriViScanner.git](https://github.com/your-username/PriViScanner.git)
+
 cd PriViScanner
 
 ### 2. Setup Environment
