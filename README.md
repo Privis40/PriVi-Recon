@@ -34,7 +34,7 @@ python3 -m venv scanner
 source scanner/bin/activate
 pip install -r requirements.txt
 
-python3 priviscanner,py <target>
+python3 priviscanner.py <target>
 
 ### 3. One-Touch Launcher (Optional but Recommended)
 
